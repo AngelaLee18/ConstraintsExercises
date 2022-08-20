@@ -1,11 +1,3 @@
-//
-//  SendMessages.swift
-//  Constraints
-//
-//  Created by Angela Lee on 16/08/2022.
-//
-
-import Foundation
 import UIKit
 
 class SendMessegeCell: UITableViewCell {
@@ -13,7 +5,7 @@ class SendMessegeCell: UITableViewCell {
     @IBOutlet weak var sMessage: UILabel!
     @IBOutlet weak var sTime: UILabel!
     
-    func ShowMessages(_ send: MessagesData){
+    func ShowMessages(_ send: MessageData){
         sMessage.text = send.message
         sTime.text = send.timeMessage
         

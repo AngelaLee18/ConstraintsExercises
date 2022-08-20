@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		103DA95228A546E80084C04B /* messages.json in Resources */ = {isa = PBXBuildFile; fileRef = 103DA95128A546E80084C04B /* messages.json */; };
-		103F8FE328ABF4AF00F6E718 /* MessagesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103F8FE228ABF4AF00F6E718 /* MessagesData.swift */; };
+		103F8FE328ABF4AF00F6E718 /* MessageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103F8FE228ABF4AF00F6E718 /* MessageData.swift */; };
 		103F8FE528ABF56100F6E718 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103F8FE428ABF56100F6E718 /* DataLoader.swift */; };
 		103F8FE928AC1A3100F6E718 /* RecivedMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103F8FE828AC1A3100F6E718 /* RecivedMessages.swift */; };
 		103F8FEB28AC6D1300F6E718 /* SendMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103F8FEA28AC6D1300F6E718 /* SendMessages.swift */; };
@@ -22,7 +22,7 @@
 
 /* Begin PBXFileReference section */
 		103DA95128A546E80084C04B /* messages.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = messages.json; path = "../../../Desktop/b24138403354038966348ff26a73129f-b77fc806e86338edc985dc879b8dbb39b10bcc38/messages.json"; sourceTree = "<group>"; };
-		103F8FE228ABF4AF00F6E718 /* MessagesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesData.swift; sourceTree = "<group>"; };
+		103F8FE228ABF4AF00F6E718 /* MessageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageData.swift; sourceTree = "<group>"; };
 		103F8FE428ABF56100F6E718 /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
 		103F8FE828AC1A3100F6E718 /* RecivedMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecivedMessages.swift; sourceTree = "<group>"; };
 		103F8FEA28AC6D1300F6E718 /* SendMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessages.swift; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 				109B62CC28A2AE5D002B8CDA /* Assets.xcassets */,
 				109B62CE28A2AE5D002B8CDA /* LaunchScreen.storyboard */,
 				109B62D128A2AE5D002B8CDA /* Info.plist */,
-				103F8FE228ABF4AF00F6E718 /* MessagesData.swift */,
+				103F8FE228ABF4AF00F6E718 /* MessageData.swift */,
 				103F8FE428ABF56100F6E718 /* DataLoader.swift */,
 				103F8FE828AC1A3100F6E718 /* RecivedMessages.swift */,
 				103F8FEA28AC6D1300F6E718 /* SendMessages.swift */,
@@ -160,7 +160,7 @@
 				109B62C828A2AE5C002B8CDA /* ViewController.swift in Sources */,
 				109B62C428A2AE5C002B8CDA /* AppDelegate.swift in Sources */,
 				109B62C628A2AE5C002B8CDA /* SceneDelegate.swift in Sources */,
-				103F8FE328ABF4AF00F6E718 /* MessagesData.swift in Sources */,
+				103F8FE328ABF4AF00F6E718 /* MessageData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

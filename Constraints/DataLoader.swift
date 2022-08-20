@@ -1,22 +1,15 @@
-//
-//  DataLoader.swift
-//  Constraints
-//
-//  Created by Angela Lee on 16/08/2022.
-//
-
 import Foundation
 
 public class DataLoader {
     
-    func loadMessages() -> [MessagesData] {
+    func loadMessages() -> [MessageData] {
         
         if let fileLocation = Bundle.main.url(forResource: "messages", withExtension: "json") {
             
             do {
                 let jsonData = try Data(contentsOf: fileLocation)
                 let jsonDecoder = JSONDecoder()
-                let dataFromJson = try jsonDecoder.decode([MessagesData].self, from:jsonData )
+                let dataFromJson = try jsonDecoder.decode([MessageData].self, from:jsonData )
                 
                 return dataFromJson
             } catch {
