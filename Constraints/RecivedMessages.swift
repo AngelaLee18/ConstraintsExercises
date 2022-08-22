@@ -12,7 +12,4 @@ class RecivedMessegeCell: UITableViewCell {
         time.text = recived.timeMessage
         
     }
-
-    
-    
 }
