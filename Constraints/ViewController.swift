@@ -15,8 +15,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        tableViewData =  DataLoader().loadMessages()
+        
+        let messages = "messeges"
+        tableViewData =  DataLoader().loadMessages(messages)
         tableView.reloadData()
         
     }

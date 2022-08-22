@@ -2,9 +2,9 @@ import Foundation
 
 public class DataLoader {
     
-    func loadMessages() -> [MessageData] {
+    func loadMessages(_ messages: String) -> [MessageData] {
         
-        if let fileLocation = Bundle.main.url(forResource: "messages", withExtension: "json") {
+        if let fileLocation = Bundle.main.url(forResource: messages, withExtension: "json") {
             
             do {
                 let jsonData = try Data(contentsOf: fileLocation)
